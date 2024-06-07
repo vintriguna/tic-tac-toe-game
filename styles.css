@@ -1,0 +1,56 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+
+    display: flex;
+    background-color: blanchedalmond;
+    margin: auto;
+    height: 107px;
+    width: 888px;
+    margin-top: 63px;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    margin: 25px auto;
+    border: 5px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.square {
+
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-1 {
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.player-2 {
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+
