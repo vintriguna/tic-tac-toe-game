@@ -3,40 +3,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Sarabun, Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+body {
+
+    background-color: antiquewhite;
 }
 
 .top {
 
     display: flex;
-    background-color: blanchedalmond;
+    background-color: #E0B1CB;
     margin: auto;
     height: 107px;
     width: 888px;
+    border-radius: 15px;
     margin-top: 63px;
     justify-content: center;
     align-items: center;
 }
 
 .board {
-    width: 600px;
-    height: 600px;
+    width: 650px;
+    height: 650px;
     margin: 25px auto;
-    border: 5px solid gray;
+    border-radius: 10%;
+    background-color: #9F86C0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: space-evenly;
+    align-content: space-evenly;
 }
 
 .square {
 
-    width: 150px;
-    height: 150px;
-    background-color: lightblue;
+    width: 170px;
+    height: 170px;
+    border-radius: 10%;
+    background-color: #231942;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.square:hover {
+
+    background-color: #5E548E;
 }
 
 .player-1 {
